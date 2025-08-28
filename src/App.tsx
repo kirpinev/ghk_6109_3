@@ -88,7 +88,7 @@ const products: Array<Product> = [
   },
 ];
 
-const TARGET_DATE = new Date("2025-08-30T00:00:00+03:00");
+const TARGET_DATE = new Date("2025-09-02T00:00:00+03:00");
 
 export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
